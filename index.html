@@ -30,7 +30,7 @@
                 <name>Kai Zhang</name>
               </p>
               <p>I am a PhD student at <a href="https://tech.cornell.edu/">Cornell University/Cornell Tech</a>, where I am very fortunate to work with <a href="http://www.cs.cornell.edu/~snavely/">Prof. Noah Snavely</a>. Before PhD, I did my undergraduate in Electronic Engineering at <a href="https://www.tsinghua.edu.cn/publish/thu2018en/index.html">Tsinghua University</a>.
-                
+              <p>I am an intern at Intel Intelligent Systems Lab hosted by <a href="http://vladlen.info/">Dr. Vladlen Koltun</a> starting from May 2020. </p>
               <p>In the past, I feel lucky to have worked with <a href="https://cqf.io/"> Prof. Qifeng Chen</a> at HKUST. </p>
               </p>
 <!--               <p>
@@ -55,13 +55,50 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I'm broadly interested in 3D-related computer vision research, including reconstruction, depth sensing, computational photography, etc. 
+                I'm broadly interested in 3D-related computer vision research, including reconstruction, depth sensing, novel view synthesis, inverse graphics, computational photography, etc. 
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='DepthSensing'><img src='images/depth_sensing.png'></div>
+                <img src='images/depth_sensing.png'>
+              </div>
+              <script type="text/javascript">
+                function motionblur_start() {
+                  document.getElementById('nerfplusplus').style.opacity = "1";
+                }
+
+                function motionblur_stop() {
+                  document.getElementById('nerfplusplus').style.opacity = "0";
+                }
+                motionblur_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>NeRF++: Analyzing and Improving Neural Radiance Fields</papertitle>
+              </a>
+              <br>
+              <strong>Kai Zhang</strong>,
+              <a href="https://griegler.github.io/">Gernot Riegler</a>,
+              <a href="http://www.cs.cornell.edu/~snavely/">Noah Snavely</a>,
+              <a href="http://vladlen.info/">Vladlen Koltun</a>
+              <br>
+              <em>arXiv preprint</em>, 2020 &nbsp
+              <br>
+              <a href="http://arxiv.org/abs/2010.07492">arxiv</a> /
+<!--               <a href="https://kai-46.github.io/DepthSensing/">project page</a> / -->
+              <a href="https://github.com/Kai-46/nerfplusplus">code</a> 
+              <p></p>
+              <p>We analyze the shape-radiance ambiguity in NeRF, and extend NeRF to work with 360 unbounded scenes. </p>
+            </td>
+          </tr>
+          
           <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -93,7 +130,7 @@
               <br>
               <a href="https://arxiv.org/abs/2004.03048">arxiv</a> /
               <a href="https://kai-46.github.io/DepthSensing/">project page</a> /
-<!--               <a href="https://kai-46.github.io/VisSat/#code">code</a>  -->
+              <a href="https://github.com/Kai-46/DepthSensingBeyondLiDARRange">code</a> 
               <p></p>
               <p>We propose a novel cost-effective camera-based solution to sense the depth of distant objects that are not reachable by typical LiDARs. This can be particularly helpful for heavily-weighted autonomous trucks.</p>
             </td>
