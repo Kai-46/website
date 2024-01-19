@@ -39,16 +39,22 @@
                     <a href="https://www.linkedin.com/in/kai-zhang-53910214a/">LinkedIn</a> &nbsp/&nbsp
                     <a href="https://github.com/Kai-46/">Github</a>
                   </p>
-                  <p>I am a Research Scientist at <a href="https://research.adobe.com/">Adobe Research</a>, working on 3D generative/multi-modal models, neural rendering
-                    and inverse graphics. I recieved my
+                  <p>I am a Research Scientist at <a href="https://research.adobe.com/">Adobe Research</a>, working on
+                    3D reconstruction and generation, inverse graphics problems. I recieved my
                     PhD
                     from <a href="https://tech.cornell.edu/">Cornell University</a> in 2022, where I worked with <a
                       href="http://www.cs.cornell.edu/~snavely/">Prof. Noah Snavely</a>.
                     Before PhD, I got my bachelor at <a
                       href="https://www.tsinghua.edu.cn/publish/thu2018en/index.html">Tsinghua University</a> in 2017.
                   </p>
+                  <p style="color:magenta"></p>
+                  <em>My latest active research area is <strong>generative 3D reconstructor</strong> that can 1) reconstruct from sparse
+                    posed/unposed images; 2) hallucinate the unseen regions; 3) be generalizable; 4) be robust to
+                  imperfect inputs, including lighting, motion blur etc; 5) work on both object-level and scene-level.</em>
+                  </p>
                   <p style="color:magenta">
-                    <em>Adobe internship/University collaboration: feel free to email me, if you share similar interests in automatic 3D content creation from images, videos and texts! </em>
+                    <em>Adobe internship/University collaboration: feel free to email me, if you share similar interests
+                      in automatic 3D content creation from images, videos and texts! </em>
                   </p>
                 </td>
               </tr>
@@ -68,7 +74,119 @@
               <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
                 <td
                   style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
-                  [7]&nbsp&nbsp<papertitle>Ray Conditioning: Trading Photo-Consistency for Photo-realism in Multi-view Image Generation</papertitle>
+                  [11]&nbsp&nbsp<papertitle>PF-LRM: Pose-Free Large Reconstruction Model for Joint Pose and Shape
+                    Prediction</papertitle>
+                  <br>
+                  <a href="https://totoro97.github.io/">Peng Wang</a>,
+                  <a href="https://research.adobe.com/person/hao-tan/">Hao Tan</a>,
+                  <a href="https://sai-bi.github.io/">Sai Bi</a>,
+                  <a href="https://justimyhxu.github.io/">Yinghao Xu</a>,
+                  <a href="https://luanfujun.com/">Fujun Luan</a>,
+                  <a href="https://research.adobe.com/person/kalyan-sunkavalli/">Kalyan Sunkavalli</a>,
+                  <a href="https://engineering.tamu.edu/cse/profiles/Wang-Wenping.html">Wenping Wang</a>,
+                  <a href="https://zexiangxu.github.io/">Zexiang Xu</a>,
+                  <a href="https://kai-46.github.io/website/"><strong>Kai Zhang</strong></a>
+                  <br>
+                  <em>ICLR</em>, 2024 (Spotlight) &nbsp
+                  <br>
+                  <a href="https://arxiv.org/abs/2311.12024">arxiv</a> /
+                  <a href="https://totoro97.github.io/pf-lrm/">project page</a>
+                  <br>
+                  Given unposed sparse images, we propose a pose-free LRM that jointly reconstruct the full 3D shape
+                  (even though the input images might only partially cover an object) while estimating the relative
+                  camera poses of input images.
+                </td>
+              </tr>
+
+              <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+                <td
+                  style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                  [10]&nbsp&nbsp<papertitle>DMV3D:Denoising Multi-View Diffusion using 3D Large Reconstruction Model
+                  </papertitle>
+                  <br>
+                  <a href="https://justimyhxu.github.io/">Yinghao Xu</a>,
+                  <a href="https://research.adobe.com/person/hao-tan/">Hao Tan</a>,
+                  <a href="https://luanfujun.com/">Fujun Luan</a>,
+                  <a href="https://sai-bi.github.io/">Sai Bi</a>,
+                  <a href="https://totoro97.github.io/">Peng Wang</a>,
+                  <a href="https://jiahao.ai/">Jiahao Li</a>,
+                  <a href="https://vivianszf.github.io/">Zifan Shi</a>,
+                  <a href="https://research.adobe.com/person/kalyan-sunkavalli/">Kalyan Sunkavalli</a>,
+                  <a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>,
+                  <a href="https://zexiangxu.github.io/">Zexiang Xu<sup>*</sup></a>,
+                  <a href="https://kai-46.github.io/website/"><strong>Kai Zhang</strong><sup>*</sup></a> (Equal
+                  advisory)
+                  <br>
+                  <em>ICLR</em>, 2024 (Spotlight) &nbsp
+                  <br>
+                  <a href="https://arxiv.org/abs/2311.09217">arxiv</a> /
+                  <a href="https://justimyhxu.github.io/projects/dmv3d/">project page</a>
+                  <br>
+                  To model the uncertainty in the single-image 3D reconstruction problem, We propose to denoise
+                  multi-view images using a 3D large reconstruction model (LRM) trained on a large-scale multi-view
+                  dataset.
+                </td>
+              </tr>
+
+              <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+                <td
+                  style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                  [9]&nbsp&nbsp<papertitle>Instant3D: Fast Text-to-3D with Sparse-View Generation and Large
+                    Reconstruction Model</papertitle>
+                  <br>
+                  <a href="https://jiahao.ai/">Jiahao Li</a>,
+                  <a href="https://research.adobe.com/person/hao-tan/">Hao Tan</a>,
+                  <a href="https://kai-46.github.io/website/"><strong>Kai Zhang</strong></a>,
+                  <a href="https://zexiangxu.github.io/">Zexiang Xu</a>,
+                  <a href="https://luanfujun.com/">Fujun Luan</a>,
+                  <a href="https://justimyhxu.github.io/">Yinghao Xu</a>,
+                  <a href="https://yiconghong.me/">Yicong Hong</a>,
+                  <a href="https://research.adobe.com/person/kalyan-sunkavalli/">Kalyan Sunkavalli</a>,
+                  <a href="https://home.ttic.edu/~gregory/">Greg Shakhnarovich</a>
+                  <a href="https://sai-bi.github.io/">Sai Bi</a>,
+                  <br>
+                  <em>ICLR</em>, 2024&nbsp
+                  <br>
+                  <a href="https://arxiv.org/abs/2311.06214">arxiv</a> /
+                  <a href="https://jiahao.ai/instant3d/">project page</a>
+                  <br>
+                  To achieve fast text-to-3D, we finetune SD-XL to generate multi-view images of an object given a text
+                  prompt, then reconstruct the 3D shape from the generated images using a multi-view version of the LRM
+                  model.
+                </td>
+              </tr>
+
+              <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+                <td
+                  style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                  [8]&nbsp&nbsp<papertitle>LRM: Large Reconstruction Model for Single Image to 3D</papertitle>
+                  <br>
+                  <a href="https://yiconghong.me/">Yicong Hong</a>,
+                  <a href="https://kai-46.github.io/website/"><strong>Kai Zhang</strong></a>,
+                  <a href="https://research.adobe.com/person/jiuxiang-gu/">Jiuxiang Gu</a>,
+                  <a href="https://sai-bi.github.io/">Sai Bi</a>,
+                  <a href="https://research.adobe.com/person/yang-zhou/">Yang Zhou</a>,
+                  <a href="https://research.adobe.com/person/difan-liu/">Difan Liu</a>,
+                  <a href="https://research.adobe.com/person/feng-liu/">Feng Liu</a>,
+                  <a href="https://research.adobe.com/person/kalyan-sunkavalli/">Kalyan Sunkavalli</a>,
+                  <a href="https://research.adobe.com/person/trung-bui/">Trung Bui</a>,
+                  <a href="https://research.adobe.com/person/hao-tan/">Hao Tan</a>,
+                  <br>
+                  <em>ICLR</em>, 2024 (Oral)&nbsp
+                  <br>
+                  <a href="https://arxiv.org/abs/2311.04400">arxiv</a> /
+                  <a href="https://yiconghong.me/LRM/">project page</a>
+                  <br>
+                  We show that data + transformer paradigm can also naturally work for 3D reconstruction with the help
+                  of large-scale multi-view datasets.
+                </td>
+              </tr>
+
+              <tr onmouseout="motionblur_stop()" onmouseover="motionblur_start()">
+                <td
+                  style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                  [7]&nbsp&nbsp<papertitle>Ray Conditioning: Trading Photo-Consistency for Photo-realism in Multi-view
+                    Image Generation</papertitle>
                   <br>
                   <a href="https://echen01.github.io/">Eric Ming Chen</a>,
                   <a href="https://sholalkere.github.io/">Sidhanth Holalkere</a>,
@@ -80,7 +198,7 @@
                   <br>
                   <a href="https://arxiv.org/abs/2304.13681">arxiv</a> /
                   <a href="https://ray-cond.github.io">project page</a> /
-                  <a href="">code [upcoming]</a>
+                  <a href="https://github.com/echen01/ray-conditioning">code</a>
                   <br>
                   We propose to add ray conditioning to StyleGAN2 generator to enable 3D-aware view synthesis with high
                   photo-realism (at the cost of reduced consistency). This particularly suits the task of editing
@@ -233,7 +351,7 @@
                   <p>
                     Internships: Adobe (2022 Summer), Intel (2021 Summer, 2020 Summer), HKUST (2019 Summer), ICL (2016
                     Summer) <br>
-                    Paper reviewer: ICCV, ECCV, CVPR, TVGG, TPAMI, SIGGRAPH, SIGGRAPH ASIA, NeurIPS<br>
+                    Paper reviewer: ICCV, ECCV, CVPR, TVGG, TPAMI, SIGGRAPH, SIGGRAPH ASIA, NeurIPS, ICLR<br>
                     Seminar co-organizer: Cornell Graphics and Vision Seminar, 2021 Fall<br>
                     Talk speaker: Graphics And Mixed Environment Seminar (GAMES), 2021<br>
                     Teaching assistant: Deep Learning, 2022 Spring; Applied Machine Learning, 2021 Fall, 2020 Fall;
